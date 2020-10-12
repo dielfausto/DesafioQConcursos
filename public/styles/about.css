@@ -1,0 +1,23 @@
+#sobre {
+  width: 100%;
+  min-height: 90vh;
+  padding-top: 94px;
+  padding-bottom: 5%;
+}
+
+#abouttext h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+#abouttext p {
+  text-align: left;
+  font-size: 1.1em;
+  width: 60%;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}

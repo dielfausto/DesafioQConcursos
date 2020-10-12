@@ -1,0 +1,262 @@
+/* Profile: */
+
+#gitDiv {
+  text-align: center;
+}
+
+#inputGit {
+  width: 800px;
+  max-width: 85%;
+  border: 3px solid #eee;
+  border-radius: 15px;
+  outline: none;
+  padding: 10px;
+  transition: .15s;
+  margin-bottom: 50px;
+}
+
+#inputGit:focus {
+  box-shadow: 0 0 10px 0 rgb(128, 189, 141);
+}
+
+#inputGit:hover {
+  box-shadow: 0 0 10px 0 rgb(128, 189, 141);
+}
+
+#desafio {
+  background-color: rgb(232, 245, 235);
+  min-height: 85vh;
+  padding-bottom: 100px;
+}
+
+#desafio h2 {
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 2em;
+  padding: 100px;
+  opacity: 80%;
+}
+
+#profile {
+  background-color: #fff;
+  padding: 20px;
+  width: 800px;
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0 0 10px #ddd;
+}
+
+#profile h1 {
+  text-align: center;
+  font-size: 1.8em;
+  color: rgb(6, 50, 23);
+  opacity: 80%;
+}
+
+.container-gitRepo {
+  display: flex;
+  color: rgb(6, 50, 23);
+  font-weight: 700;
+  align-items: center;
+  opacity: 80%;
+}
+
+.left {
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.left a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  color: rgb(6, 50, 23);
+  margin-top: 30px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.left a:hover {
+  color:  rgb(151, 215, 173);
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.left img {
+  height: 80%;
+  width: 80%;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  opacity: 100%;
+  border: 3px solid rgb(6, 50, 23);
+  box-shadow: 0 0 5px #222;
+  transition: 0.3s;
+}
+
+.left img:hover {
+  opacity: 85%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 60%;
+}
+
+.right ul {
+  list-style: none;
+  font-size: 1.1em;
+  margin-top: 40px;
+}
+
+.right ul li{
+  line-height: 30px;
+}
+
+.btn input {
+  cursor: pointer;
+  width: 40%;
+  height: 44px;
+  font-weight: 700;
+  border: 2px solid rgb(151, 215, 173);
+  color: rgb(151, 215, 173);
+  background-color: transparent;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 100%;
+  border-radius: 3px;
+  transition: 0.3s;
+  box-shadow: 0 0 3px #ddd;
+}
+
+.btn input:hover {
+  outline: 0;
+  background-color: rgb(135,206,250);
+  border: 2px solid rgb(121, 197, 148);
+  color: #fff;
+}
+
+.btn input:focus {
+  outline: 0;
+}
+
+.btn input:active {
+  background-color: #fff;
+  color: #000;
+  transition: 0.2s;
+}
+
+#btn-starred {
+  margin-left: 20px;
+}
+
+
+/* Repositórios: */
+
+#repo {
+  margin: 20px 50px;
+  display: none;
+}
+
+#repo h3 {
+  color: rgb(6, 50, 23);
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+#repo hr {
+  background-color: #aaa; 
+  height: 1px; 
+  border: 0; 
+  opacity: 15%;
+  margin-left: 5%;
+  margin-bottom: 50px;
+}
+
+#repo ul {
+  list-style: none;
+}
+
+#repo ul li {
+  background-color: rgb(210, 238, 223);
+  padding: 7px;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}
+
+#repo ul li:nth-child(even) {
+  background-color: #fff;
+}
+
+
+/* Favoritos: */
+
+#starred {
+  margin: 20px 50px;
+  display: none;
+}
+
+#starred h3 {
+  color: rgb(6, 50, 23);
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+#starred hr {
+  background-color: #aaa; 
+  height: 1px; 
+  border: 0; 
+  opacity: 15%;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 50px;
+}
+
+#starred ul {
+  list-style: none;
+}
+
+#starred ul li {
+  background-color: rgb(210, 238, 223);
+  padding: 7px;
+  letter-spacing: 1px;
+}
+
+#starred ul li:nth-child(even) {
+  background-color: #fff;
+}
+
+
+/* Not Found: */
+
+#notfound {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+
+#notfound img {
+  margin: 0 20px;
+  height: 80%;
+  width: 80%;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  opacity: 100%;
+  border: 3px solid rgb(6, 50, 23);
+  box-shadow: 0 0 5px #222;
+}
+
+#notfound h1 {
+  margin: 0 20px;
+}

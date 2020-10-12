@@ -1,0 +1,175 @@
+/* Dispositivos menores: */
+
+@media only screen and (max-width: 485px) {
+
+  #social img {
+    min-height: 35px;
+    min-width: 35px;
+  }
+  
+  .mainnav {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 10%;
+    font-size: 0.8em;
+  }
+
+  .mainnav a {
+    margin-left: 65%;
+    width: 20%;
+    border-radius: 30px !important;
+  }
+
+  #maintext {
+    line-height: 2em;
+  }
+
+  #maintext h1 {
+    font-size: 1.2em !important;
+  }
+
+  #maintext h2 {
+    font-size: 0.8em !important;
+  }
+
+  .right {
+    padding-left: 20px;
+  }
+
+  .left a, #liRepo {
+    font-size: 1em;
+  }
+
+  .btn {
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+  }
+
+  .btn input {
+    width: 90%;
+    margin: 2px 0 !important;
+  }
+
+  #profile {
+    padding: 20px 0;
+  }
+
+  #profile h1 {
+    font-size: 1.5em;
+  }
+
+  footer {
+    font-size: 0.6em;
+  }
+
+  #notfound {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #notfound h1 {
+    margin-top: 10px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 487px) and (max-width: 590px) {
+  .btn {
+    font-size: 0.65em !important;
+  }
+}
+
+/* Dispositivos pequenos: */
+
+@media only screen and (min-width: 486px) and (max-width: 660px) {
+
+  #social img {
+    min-height: 40px;
+    min-width: 40px;
+  }
+
+  .mainnav {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 10%;
+  }
+
+  .mainnav a {
+    text-align: center;
+    margin-left: 65%;
+    width: 20%;
+    border-radius: 30px !important;
+  }
+
+  #maintext {
+    line-height: 3em;
+  }
+
+  #maintext h1 {
+    font-size: 1.5em !important;
+  }
+
+  #maintext h2 {
+    font-size: 1em !important;
+  }
+
+  .btn {
+    font-size: 0.8em;
+  }
+
+  .right {
+    padding-left: 20px;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
+
+  #liRepo {
+    font-size: 1em;
+  }
+
+  #profile h1 {
+    font-size: 1.7em;
+  }
+}
+
+/* Dispositivos médios: */
+
+@media only screen and (min-width: 661px) and (max-width: 740px) {
+  #maintext {
+    line-height: 3.5em;
+  }
+  
+  #maintext h1 {
+    font-size: 2em !important;
+  }
+
+  #maintext h2 {
+    font-size: 1.5em !important;
+  }
+
+  footer {
+    font-size: 0.9em;
+  }
+}
+
+/* Dispositivos maiores: */
+
+@media only screen and (min-width: 741px) and (max-width: 980px) {
+  #maintext {
+    line-height: 4em;
+  }
+
+  #maintext h1 {
+    font-size: 2.5em !important;
+  }
+
+  #maintext h2 {
+    font-size: 2em !important;
+  }
+}

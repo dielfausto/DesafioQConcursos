@@ -1,0 +1,13 @@
+footer {
+  background-color: rgb(48, 48, 48);
+  padding: 2% 0;
+
+}
+
+footer p {
+  text-align: center;
+  color: #eee;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  vertical-align: middle;
+}
