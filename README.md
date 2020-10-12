@@ -16,6 +16,6 @@ Sem o uso de framework, apenas com HTML,CSS e JavaScript.o `Webpack` foi utiliza
 https://www.youtube.com/watch?v=ql7u9IUmBHk&ab_channel=DielFausto</a>
 
 ![homepage](https://github.com/dielfausto/DesafioQConcursos/blob/master/public/images/home.png)
-![about] (https://github.com/dielfausto/DesafioQConcursos/blob/master/public/images/about.png)
+![about](https://github.com/dielfausto/DesafioQConcursos/blob/master/public/images/about.png)
 ![desafio](https://github.com/dielfausto/DesafioQConcursos/blob/master/public/images/desafio.png)
 ![repositorios](https://github.com/dielfausto/DesafioQConcursos/blob/master/public/images/repositorios.png)
