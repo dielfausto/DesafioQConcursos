@@ -10,7 +10,7 @@
 
 ## O desafio consistiu por fazer uma página única contendo "Home", "Sobre" e "Requisições do GitHub mostrando os Repositórios,Seguidores e Favoritos, caso tenha". 
 
-Sem o uso de framework, apenas com HTML,CSS e JavaScript.o `Webpack` foi utilizado para  uma melhor organização dos arquivos e pastas, e também o `Babel` para que código JavaScript seja entendido em navegadores mais antigos.
+Sem o uso de framework, apenas com HTML, CSS e JavaScript, o `Webpack` foi utilizado para  uma melhor organização dos arquivos e pastas, e também o `Babel` para que código JavaScript seja entendido em navegadores mais antigos.
 
 **Você pode visualizar a página em funcionamento no youtube pelo link:<a href="https://www.youtube.com/watch?v=ql7u9IUmBHk&ab_channel=DielFausto" target="_blank">
 https://www.youtube.com/watch?v=ql7u9IUmBHk&ab_channel=DielFausto</a>
