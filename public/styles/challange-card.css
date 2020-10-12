@@ -13,6 +13,7 @@
   padding: 10px;
   transition: .15s;
   margin-bottom: 50px;
+  transition: .2s ease-in-out;
 }
 
 #inputGit:focus {
@@ -169,6 +170,7 @@
   margin-bottom: 30px;
   letter-spacing: 1px;
   word-spacing: 1px;
+  text-align: center;
 }
 
 #repo hr {
@@ -182,6 +184,7 @@
 
 #repo ul {
   list-style: none;
+  border: 1px solid rgb(210, 238, 223);
 }
 
 #repo ul li {
@@ -189,6 +192,11 @@
   padding: 7px;
   letter-spacing: 1px;
   font-size: 0.9em;
+  text-align: center;
+}
+
+#repo ul li hover {
+  background-color: ffff; 
 }
 
 #repo ul li:nth-child(even) {

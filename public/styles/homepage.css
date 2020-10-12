@@ -40,7 +40,7 @@ body {
 .mainnav a {
   padding: 10px 20px;
   text-decoration: none;
- color: #000;
+ color: white;
    /*background: #ddd;
   box-shadow: 2px 2px 3.5px 1px #000;
   transition: 0.5s;*/
@@ -146,9 +146,10 @@ body {
   animation-iteration-count: 3;
 
   margin-top: 0px;
-    top: -50%;
-    z-index: 2;
-    transition: 0.2s;
+  top: -50%;
+  z-index: 2;
+  transition: 0.2s;
+   
 }
 
 @keyframes treme {

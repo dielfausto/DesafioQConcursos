@@ -82,7 +82,7 @@ function renderGitCard(data) {
           </div>
       </div>
 
-      <div id="repo"></div>
+      <div id="repository"></div>
       <div id="starred"></div>
       </div> `;
 

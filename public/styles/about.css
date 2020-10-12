@@ -1,3 +1,4 @@
+
 #sobre {
   width: 100%;
   min-height: 90vh;
@@ -13,7 +14,7 @@
 }
 
 #abouttext p {
-  text-align: left;
+  text-align: justify;
   font-size: 1.1em;
   width: 60%;
   letter-spacing: 2px;
